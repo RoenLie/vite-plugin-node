@@ -1,6 +1,6 @@
 {
 	"name": "@roenlie/vite-plugin-node",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Vite plugin to enable your node server HMR",
 	"author": "Kristoffer Roen-Lie",
 	"license": "MIT",
