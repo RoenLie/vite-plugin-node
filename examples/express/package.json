@@ -10,10 +10,10 @@
     "build": "vite build"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "vite": "^2.9.0",
+    "vite": "^4.0.3",
     "vite-plugin-node": "workspace:*"
   }
 }

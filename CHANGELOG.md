@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+- Updated all deps and bumped vite to v4.
+- Updated vite package and nest project.
+- Changed eslint package.
+- Changed plugin to ESmodule and NodeNext resolution.
+
 ## 1.0.0
 - lazy load swc
 

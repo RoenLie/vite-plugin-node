@@ -8,10 +8,10 @@
     "build": "vite build"
   },
   "dependencies": {
-    "fastify": "^3.27.1"
+    "fastify": "^4.10.2"
   },
   "devDependencies": {
-    "vite": "^2.9.0",
+    "vite": "^4.0.3",
     "vite-plugin-node": "workspace:*"
   }
 }

@@ -1,11 +1,13 @@
 import type { INestApplication } from '@nestjs/common';
-import type { RequestAdapter } from '..';
+
+import type { RequestAdapter } from '../index.js';
+
 
 export const NestHandler: RequestAdapter<INestApplication> = async ({ app, req, res }) => {
-  await app.init();
-  const instance = app.getHttpAdapter().getInstance();
+	await app.init();
+	const instance = app.getHttpAdapter().getInstance();
 
-  // Todo: handle nest-fastify case
+	// Todo: handle nest-fastify case
 
-  instance(req, res);
+	instance(req, res);
 };
