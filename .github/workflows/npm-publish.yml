@@ -19,7 +19,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install
         working-directory: packages/vite-plugin-node
-      - run: npm publish
+      - run: npm publish --access public
         working-directory: packages/vite-plugin-node
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
